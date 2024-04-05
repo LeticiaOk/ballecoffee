@@ -7,7 +7,7 @@
 }
 
 body{
-    background: #1F1517;;
+    background: #1F1517;
     color: #FFFFFF;
 }
 html{
@@ -261,4 +261,84 @@ footer{
     font-family: Inter;
     font-size: 1rem;
     font-weight: 500;
+}
+
+/* CADASTRO */ 
+
+.cadastro{
+   
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/cafeteria.jpg'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: end;
+}
+
+.cadastro-container{
+    background-color: #181012;
+    border-radius: 20px 0px 0px 20px;
+    height: 100%;
+    width: 800px;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cadastro-titulo{
+    /* text-align: center; */
+    font-family: Montserrat;
+
+    font-size: 37px;
+    font-weight: 800;
+}
+
+.cadastro-paragrafo{
+    color: #C7BAB3;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 50px;
+}
+input{
+    padding: 8px 0px 8px 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline:none;
+    color: #FFFFFF;
+    font-size: 1rem;
+   
+}
+
+::placeholder{
+    color: #C7BAB3;
+    font-size: 1.1rem;
+}
+
+#nome {
+    width: 420px;
+}
+
+#senha{
+    width: 260px;
+}
+
+.cadastro-botao{
+    margin-top: 25px;
+    border: none;
+    padding: 16px 26px 16px 26px;
+    border-radius: 0.5rem;
+    background: #A45A49;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.cadastro-botao:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
